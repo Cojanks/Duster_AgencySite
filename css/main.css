@@ -1,0 +1,264 @@
+body{
+	background-color: #0A0A0A;
+	font-family: inheret;
+	height: 6000px
+}
+
+header{
+	background-image: url(../Assets/EDITED.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    /*background-size: 110%;*/
+    -o-background-size: cover;
+    color: #FFE7D7;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.navbar .container-fluid{
+	padding:0 60px;
+}
+.navbar-header .navbar-brand{
+	font-family: 'Peace Sans';
+	font-size: 28px;
+	letter-spacing: 2px;
+	margin-top:3px;
+	color:#B27247;
+}
+.nav li a{
+	font-family: 'Coves';
+	/*font-weight: bold;*/
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.hero-text{
+	padding-top: 350px;
+    padding-bottom: 400px;
+}
+.hero-heading{
+	font-family: 'Peace Sans';
+	font-size: 150px;
+	line-height: 1;
+}
+.hero-supplement{
+	font-family: 'Coves';
+	font-size: 24px;
+	letter-spacing: 2px;
+	/*font-style: italic;*/
+}
+
+
+.aboutSec{
+	color: #B79B88;
+	background-image: url(../Assets/Astro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.aboutSec .container-fluid {
+	padding: 150px 0;
+}
+.about-text{
+	text-align: center;
+	padding: 0 30px;
+}
+.about-text p{
+	font-family: 'Coves';
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+.about-text h4{
+	font-family: 'Coves';
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+hr {
+    max-width: 100px; 
+    border-top: 1px solid #B27247;
+    border-bottom: 1px solid #B27247;
+    height: 2px;
+    margin: 35px auto;
+}
+
+.portfolio hr{
+	max-width: 90%; 
+	border-top: 1px solid #202A31;
+    border-bottom: 1px solid #202A31;
+	margin: 25px auto;
+}
+
+
+/* ==================== Font ==================== */
+@font-face {
+	font-family: 'Peace Sans';
+	src: url('Assets/fonts/Peace Sans.otf');
+}
+@font-face {
+	font-family: 'Coves Bold';
+	src: url('Assets/fonts/Coves Bold.otf');
+}
+@font-face {
+	font-family: 'Coves Light';
+	src: url('Assets/fonts/Coves Light.otf');
+}
+
+
+
+
+
+
+
+
+
+
+/* ==================== Media Queries ==================== */
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  {
+	header{
+		background-size: 150%
+	}
+.navbar .container-fluid{
+	padding:0 30px;}   
+.hero-heading{
+	font-family: 'Peace Sans';
+	font-size: 60px;
+	line-height: .75;}
+.hero-supplement{
+	font-family: 'Coves';
+	font-size: 12px;
+	/*font-style: italic;*/
+	margin: 0px;}
+.hero-text{
+	padding-top: 120px;
+    padding-bottom: 120px;}
+
+.aboutSec .container-fluid {
+	padding-top: 50px;
+	padding-bottom: 50px;}
+hr {
+    margin: 75px auto;}
+
+} /* End (min-width:320px) */
+
+
+
+/* -------------------- */
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px)  {
+header{
+		background-size: 130%
+	}
+.hero-heading{
+	font-size: 75px;
+	letter-spacing: 1px;
+	text-indent: -1px;
+	line-height: 1;}
+.hero-text{
+	padding-top: 140px;
+    padding-bottom: 140px;}
+
+.aboutSec .container-fluid {
+	padding: 80px 0;}
+hr {
+    margin: 95px auto;}
+} /* End (min-width:481px) */
+
+
+
+/* -------------------- */
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  {  
+header{
+		background-size: 110%
+	}
+	.navbar .container-fluid{
+	padding:0 60px;}  
+.hero-heading{
+	font-size: 100px;
+	letter-spacing: 5px;
+	text-indent: -5px;}
+.hero-supplement{
+	font-size: 18px;}
+.hero-text{
+	padding-top: 170px;
+    padding-bottom: 170px;}
+
+.aboutSec .container-fluid {
+	padding-top: 80px;
+	padding-bottom: 150px;}
+hr {
+    margin: 35px auto;}
+
+} /* End (min-width:641px) */
+
+
+
+/* -------------------- */
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  { 
+.hero-heading{
+	font-size: 120px;
+	letter-spacing: 10px;
+	text-indent: -10px;}
+.hero-supplement{
+	font-size: 20px;}
+.hero-text{
+	padding-top: 210px;
+    padding-bottom: 185px;}
+
+.aboutSec .container-fluid {
+	padding-top: 100px;
+	padding-bottom: 200px;}
+
+} /* End (min-width:961px) */
+
+
+
+/* -------------------- */
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {  
+.hero-heading{
+	font-size: 140px;
+	letter-spacing: 20px;
+	text-indent: -30px;}
+.hero-supplement{
+	font-size: 22px;}
+.hero-text{
+	padding-top: 240px;
+    padding-bottom: 200px;}
+
+.aboutSec .container-fluid {
+	padding-top: 150px;
+	padding-bottom: 210px;}
+hr {
+    margin: 45px auto;}
+
+} /* End (min-width:1025px) */
+
+
+
+/* -------------------- */
+/* hi-res laptops and desktops */
+@media (min-width:1280px) {  
+.hero-text{
+	padding-top: 280px;
+    padding-bottom: 280px;}
+
+.about-text h4{
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 1px;}
+.about-text p{
+	font-size: px;
+	letter-spacing: 1px;}
+
+
+} /* End (min-width:1281px) */
