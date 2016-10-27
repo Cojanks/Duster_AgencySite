@@ -415,6 +415,7 @@ hr {
     margin-right: auto}
 
 .p0 { padding: 0}
+.px0 { padding-left:   0; padding-right:  0 }
 .p1 { padding: .5rem}
 .py1 {
     padding-top: .5rem;
