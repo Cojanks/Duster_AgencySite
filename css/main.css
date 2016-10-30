@@ -17,7 +17,13 @@ header{
     text-align: center;
     margin-top: 40px;
 }
-
+hr {
+    max-width: 100px; 
+    border-top: 1px solid #B27247;
+    border-bottom: 1px solid #B27247;
+    height: 2px;
+    margin: 35px auto;
+}
 .navbar .container-fluid{
 	padding:0 60px;
 }
@@ -33,6 +39,16 @@ header{
 	/*font-weight: bold;*/
 	font-size: 14px;
 	letter-spacing: 1px;
+	-o-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-khtml-transition: color 0.2s linear;
+	-webkit-transition: color 0.2s linear;
+	-ms-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+}
+.nav li:hover{
+	background-color: #B27247;
+	color: #FFE7D7;
 }
 
 .hero-text{
@@ -80,14 +96,6 @@ header{
 	font-weight: 400;
 	letter-spacing: 1px;
 }
-hr {
-    max-width: 100px; 
-    border-top: 1px solid #B27247;
-    border-bottom: 1px solid #B27247;
-    height: 2px;
-    margin: 35px auto;
-}
-
 .portfolio hr{
 	max-width: 90%; 
 	border-top: 1px solid #202A31;
