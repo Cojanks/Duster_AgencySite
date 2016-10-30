@@ -152,14 +152,14 @@ a:focus{
 	left:0;
 	z-index: 3;
 	padding: 1.6rem;
-	background-color:rgba(0, 0, 0, 0.3);
 	height: 20%;
 	transition: 0.5s ease;
 	opacity: 0;
 }
 .bkgImage:hover .overlay{
-	height:23%;
+	height:29%;
 	opacity: 1.0;
+	background-color:rgba(0, 0, 0, 0.7);
 }
 .overlayText{
 	width:100%;
@@ -168,10 +168,10 @@ a:focus{
 }
 .clientText{
 	margin: 0;
-	font-family: Peace Sans;
+	font-family: 'Kanit', sans-serif;
 	font-weight: bold;
-	font-size: 23px;
-	letter-spacing: 7px;
+	font-size: 30px;
+	letter-spacing: 6px;
 	text-decoration: none;
 }
 .serviceText{
