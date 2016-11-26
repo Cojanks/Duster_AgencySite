@@ -337,14 +337,14 @@ hr {
 	left:0;
 	z-index: 3;
 	padding: 1rem;
-	height: 25%;
+	height: 20%;
 	opacity:1.0;
 	background-color:rgba(0, 0, 0, 0.4);}
 .clientText{
-	font-size: 36px;
+	font-size: 46px;
 	letter-spacing: 3px;}
 .serviceText{
-	font-size: 18px;
+	font-size: 24px;
 	letter-spacing: 2px;}
 #AM{
 	font-size: 36px; 
