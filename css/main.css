@@ -214,7 +214,8 @@ a:focus{
 	padding:0 30px;}   
 .hero-heading{
 	font-size: 60px;
-	line-height: .75;}
+	line-height: .75;
+	letter-spacing: 5px;}
 .hero-supplement{
 	font-size: 12px;
 	margin: 0px;}
@@ -267,7 +268,7 @@ header{
 	}
 .hero-heading{
 	font-size: 75px;
-	letter-spacing: 1px;
+	letter-spacing: 5px;
 	text-indent: -1px;
 	line-height: 1;}
 .hero-text{
@@ -310,7 +311,7 @@ hr {
 header{
 		background-size: 110%
 	}
-	.navbar .container-fluid{
+.navbar .container-fluid{
 	padding:0 60px;}  
 .hero-heading{
 	font-size: 100px;
@@ -400,9 +401,9 @@ hr {
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {  
 .hero-heading{
-	font-size: 140px;
+	font-size: 180px;
 	letter-spacing: 20px;
-	text-indent: -30px;}
+	text-indent: -70px;}
 .hero-supplement{
 	font-size: 22px;}
 .hero-text{
