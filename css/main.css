@@ -55,7 +55,6 @@ a:focus{
 	background-color: #B27247;
 	color: #FFE7D7;
 }
-
 .hero-text{
 	padding-top: 350px;
     padding-bottom: 400px;
@@ -178,7 +177,7 @@ a:focus{
 /* ==================== Font ==================== */
 @font-face {
 	font-family: 'Peace Sans';
-	src: url('Assets/fonts/Peace Sans.otf');
+	src: url('Assets/fonts/Peace Sans Webfont.ttf');
 }
 @font-face {
 	font-family: 'Coves Bold';
@@ -244,8 +243,7 @@ hr {
 	letter-spacing: 2px;}
 #AM{
 	font-size: 36px; 
-	letter-spacing: 3px
-}
+	letter-spacing: 3px}
 
 } /* End (min-width:320px) */
 
@@ -290,8 +288,8 @@ hr {
 	letter-spacing: 2px;}
 #AM{
 	font-size: 36px; 
-	letter-spacing: 3px
-}
+	letter-spacing: 3px}
+
 } /* End (min-width:481px) */
 
 
@@ -339,8 +337,7 @@ hr {
 	letter-spacing: 2px;}
 #AM{
 	font-size: 36px; 
-	letter-spacing: 3px
-}
+	letter-spacing: 3px}
 
 } /* End (min-width:641px) */
 
@@ -382,8 +379,7 @@ hr {
 	letter-spacing: 2px;}
 #AM{
 	font-size: 20px; 
-	letter-spacing: 3px
-}
+	letter-spacing: 3px}
 
 
 } /* End (min-width:961px) */
@@ -430,9 +426,7 @@ hr {
 	letter-spacing: 2px;}
 #AM{
 	font-size: 25px; 
-	letter-spacing: 2px
-}
-
+	letter-spacing: 2px}
 
 } /* End (min-width:1025px) */
 
@@ -454,9 +448,6 @@ hr {
 	letter-spacing: 1px;}
 #AM{
 	font-size: 26px; 
-	letter-spacing: 3px
-}
-
-
+	letter-spacing: 3px}
 
 } /* End (min-width:1281px) */
