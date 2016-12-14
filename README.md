@@ -24,6 +24,7 @@ REASONS FOR THE CONSUMER TO BUY IN / BELIEVE US:
 At the end of the day, our services will always be a cheaper solution compared to our Terrain counterparts. There is also an advantage to being a “boots on the ground”, local business who has the same concerns and understanding of life here on Mars compared to the Art & Creative Directors, living on a wholly different planet. 
 
 Looking for similar style to:
+
 1 - https://blackrockdigital.github.io/startbootstrap-agency/
 
 2 - https://blackrockdigital.github.io/startbootstrap-creative/
